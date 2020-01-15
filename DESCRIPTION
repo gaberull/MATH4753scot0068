@@ -1,0 +1,11 @@
+Package: MATH4753scot0068
+Type: Package
+Title: Introductory Package
+Version: 0.1.0
+Author: Austin Gabe Scott
+Maintainer: Austin Gabe Scott <austin.g.scott-1@ou.edu>
+Description: This is a test package
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
