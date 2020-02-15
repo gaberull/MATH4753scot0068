@@ -2,22 +2,22 @@
 % Please edit documentation in R/mybin.R
 \name{mybin}
 \alias{mybin}
-\title{mybin}
+\title{mybin - Binomial Simulation}
 \usage{
 mybin(iter, n, p)
 }
 \arguments{
 \item{iter}{- number of iterations}
 
-\item{n}{- number}
+\item{n}{- sample size (number of trials)}
 
-\item{p}{- probability}
+\item{p}{- probability of a success}
 }
 \value{
-succ.tab/iter
+plot of the simulation with proportions and a table of proportions
 }
 \description{
-Creates a table of successes in binomial distribution over iter number of trials.
+Uses sample function to produce a binomial simulation over iter number of trials.
 Fills a matrix and creates a labeled barplot for given input.
 }
 \examples{
