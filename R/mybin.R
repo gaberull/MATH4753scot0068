@@ -1,17 +1,18 @@
 
-#' mybin
+#' mybin - Binomial Simulation
 #'
-#' Creates a table of successes in iter number of trials. Fills
-#' a matrix and creates a labeled barplot for given input.
+#' Uses sample function to produce a binomial simulation over iter number of trials.
+#' Fills a matrix and creates a labeled barplot for given input.
 #'
 #' @param iter - number of iterations
-#' @param n - number
-#' @param p - probability
+#' @param n - sample size (number of trials)
+#' @param p - probability of a success
 #'
-#' @return succ.tab/iter
+#' @return plot of the simulation with proportions and a table of proportions
 #' @export
 #'
-#' @examples mybin(iter=100,n=10, p=0.5)
+#' @examples
+#' mybin(iter=100,n=10, p=0.5)
 mybin=function(iter, n, p){
   # make a matrix to hold the samples
   #initially filled with NA's
