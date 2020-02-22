@@ -2,6 +2,7 @@
 
 export(mybin)
 export(myf)
+export(myncurve)
 export(myplot)
 export(myread)
 export(readTable)
