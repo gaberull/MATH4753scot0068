@@ -10,7 +10,7 @@ myncurve(mu, sigma, a)
 \item{a}{}
 }
 \value{
-
+probability - area under the curve
 }
 \description{
 display the curve, shaded area between the curve and x axis

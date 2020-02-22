@@ -15,7 +15,7 @@
 #' @examples
 #' myncurve(2,4,5)
 myncurve = function(mu, sigma, a){
-  curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma), main="Area from -infinite to infinite", xlab = "Y", ylab = "Density")
+  curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma), main="Area from -infinity to a", xlab = "Y", ylab = "Density")
 
   xcurve = seq(mu-3*sigma, a, length = 1000)
   ycurve = dnorm(xcurve, mean=mu, sd=sigma)
