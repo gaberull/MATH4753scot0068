@@ -9,11 +9,12 @@
 #' @param p - The probability of success in a single binomial trial
 #' @param ...
 #'
-#' @return a histogram of sample mean with density plot and theoretical normal curve added
+#' @return a histogram of sample mean theoretical normal curve line added in Red
 #' @export
 #'
 #' @examples
 #' mycltb(n=3, iter=10000, p=0.5)
+#' mycltb(n=9, iter=10000)
 #'
 mycltb=function(n,iter,p=0.5,...){
 

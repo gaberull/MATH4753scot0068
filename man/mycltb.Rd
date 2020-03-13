@@ -16,7 +16,7 @@ mycltb(n, iter, p = 0.5, ...)
 \item{...}{}
 }
 \value{
-a histogram of sample mean with density plot and theoretical normal curve added
+a histogram of sample mean theoretical normal curve line added in Red
 }
 \description{
 mycltb takes a random sample from a binomial distribution.
@@ -24,5 +24,6 @@ CLT will work with discrete OR continuous distributions
 }
 \examples{
 mycltb(n=3, iter=10000, p=0.5)
+mycltb(n=9, iter=10000)
 
 }
